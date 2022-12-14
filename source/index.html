@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>HTML Academy: "Седона 2.0" </title>
+  <title>HTML Academy: "Седона" </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -17,12 +17,12 @@
     <!-- navigation -->
     <nav class="main-nav">
       <button class="main-nav__toggle">
-        <span class="visually-hidden">Открыть меню</span>
+        <span class="visually-hidden">Открыть меню.</span>
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--current">
-            <a class="site-list__link" href="#">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--current" href="#">
               главная
             </a>
           </li>
@@ -68,85 +68,76 @@
       <ul class="advantages__list">
 
         <!-- number 1 -->
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">настоящий городок</h3>
-              <span class="advantage__number">— №1 —</span>
-              <p class="advantage__description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+        <li class="advantages__item">
+          <div class="advantages__item-wrapper">
+            <div class="advantages__content-wrapper">
+              <h3 class="advantages__title">настоящий городок</h3>
+              <span class="advantages__number">— №1 —</span>
+              <p class="advantages__description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             </div>
           </div>
-          <div class="advantage__image-wrapper">
-            <img src="img/salun-photo.jpg" alt="Вид на салун.">
+          <div class="advantages__image-wrapper">
+            <img class="advantages__image" src="img/salun-photo.jpg" alt="Вид на салун.">
           </div>
+
+          <!-- home, eat, souvenirs -->
+          <ul class="advantages__sublist">
+            <li class="advantages__subitem ">
+              <div class="advantages__subitem-wrapper">
+                <h3 class="advantages__subtitle">Жилье</h3>
+                <p class="advantages__subdescription">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </div>
+            </li>
+            <li class="advantages__subitem">
+              <div class="advantages__subitem-wrapper">
+                <h3 class="advantages__subtitle">Еда</h3>
+                <p class="advantages__subdescription">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </div>
+            </li>
+            <li class="advantages__subitem">
+              <div class="advantages__subitem-wrapper">
+                <h3 class="advantages__subtitle">Сувениры</h3>
+                <p class="advantages__subdescription">Не только китайского, но и местного производства!</p>
+              </div>
+            </li>
+          </ul>
         </li>
 
-        <!-- home, eat, souvenirs -->
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Жилье</h3>
-              <p class="advantage__description">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-            </div>
-          </div>
-        </li>
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Еда</h3>
-              <p class="advantage__description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-            </div>
-          </div>
-        </li>
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Сувениры</h3>
-              <p class="advantage__description">Не только китайского, но и местного производства!</p>
-            </div>
-          </div>
-        </li>
 
         <!-- number 2 -->
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Там есть мост дьявола</h3>
-              <span class="advantage__number">— №2 —</span>
-              <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+        <li class="advantages__item">
+          <div class="advantages__item-wrapper">
+            <div class="advantages__content-wrapper">
+              <h3 class="advantages__title">Там есть мост дьявола</h3>
+              <span class="advantages__number">— №2 —</span>
+              <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
             </div>
           </div>
-          <div class="advantage__image-wrapper">
-            <img src="img/devil-bridge.jpg" alt="Вид на мост дьявола.">
+          <div class="advantages__image-wrapper">
+            <img class="advantages__image" src="img/devil-bridge.jpg" alt="Вид на мост дьявола.">
           </div>
         </li>
 
         <!-- number 3-5 -->
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Небольшая площадь</h3>
-              <span class="advantage__number">— №3 —</span>
-              <p class="advantage__description">Все интересные места находятся очень близко</p>
-            </div>
+        <li class="advantages__item">
+          <div class="advantages__item-wrapper">
+            <h3 class="advantages__title">Небольшая площадь</h3>
+            <span class="advantages__number">— №3 —</span>
+            <p class="advantages__description">Все интересные места находятся очень близко</p>
           </div>
         </li>
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Красивая дорога</h3>
-              <span class="advantage__number">— №4 —</span>
-              <p class="advantage__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </div>
+        <li class="advantages__item">
+          <div class="advantages__item-wrapper">
+            <h3 class="advantages__title">Красивая дорога</h3>
+            <span class="advantages__number">— №4 —</span>
+            <p class="advantages__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </li>
-        <li class="advantages__item advantage">
-          <div class="advantage__item-wrapper">
-            <div class="advantage__content-wrapper">
-              <h3 class="advantage__title">Мало туристов</h3>
-              <span class="advantage__number">— №5 —</span>
-              <p class="advantage__description">Большинство едет в Гранд Каньон и толпится там</p>
-            </div>
+        <li class="advantages__item">
+          <div class="advantages__item-wrapper">
+            <h3 class="advantages__title">Мало туристов</h3>
+            <span class="advantages__number">— №5 —</span>
+            <p class="advantages__description">Большинство едет в Гранд Каньон и толпится там</p>
           </div>
         </li>
       </ul>
@@ -154,12 +145,10 @@
 
     <!-- Hotel search -->
     <section class="hotel-search">
-      <div class="hotel-search__wrapper">
-        <h2 class="hotel-search__title">Заинтересовались?</h2>
-        <p class="hotel-search__text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
-          Седоне</p>
-        <a class="hotel-search__button" href="https://echo.htmlacademy.ru/">поиск гостиницы в седоне</a>
-      </div>
+      <h2 class="hotel-search__title">Заинтересовались?</h2>
+      <p class="hotel-search__text">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в
+        Седоне</p>
+      <a class="hotel-search__button button" href="https://echo.htmlacademy.ru/">поиск гостиницы в седоне</a>
     </section>
 
 
@@ -182,37 +171,40 @@
   <!-- footer -->
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <h2 class="page-footer__title">#visitsedona</h2>
+      <h2 class="page-footer__hashtag">#visitsedona</h2>
 
       <!-- social -->
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Вконтакте</span>
+              <span class="visually-hidden">Вконтакте.</span>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
+              <span class="visually-hidden">Телеграм.</span>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
+              <span class="visually-hidden">Ютуб.</span>
             </a>
           </li>
         </ul>
       </div>
 
-      <!-- developed -->
-      <div class="page-footer__developed developed">
-        <p class="developed__description">
-          Разработано
-          <a class="developed__link" href="https://htmlacademy.ru/intensive/adaptive">
-            <span class="visually-hidden">Сайт HTMLAcademy</span>
-          </a>
-        </p>
+      <!-- copyright -->
+      <div class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <span class="page-footer__copyright-text">Разработано</span>
+          <svg class="page-footer__copyright-icon" width="27" height="35" viewBox="0 0 27 35" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z"
+              fill="black" />
+          </svg>
+        </a>
       </div>
     </div>
   </footer>

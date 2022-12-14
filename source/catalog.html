@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Седона 2.0: Форма отзыва</title>
+  <title>Седона: Фото и видео</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -17,7 +17,7 @@
     <!-- navigation -->
     <nav class="main-nav">
       <button class="main-nav__toggle">
-        <span class="visually-hidden">Открыть меню</span>
+        <span class="visually-hidden">Открыть меню.</span>
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list site-list">
@@ -26,13 +26,13 @@
               главная
             </a>
           </li>
-          <li class="site-list__item site-list__item--current">
-            <a class="site-list__link" href="#">
+          <li class="site-list__item">
+            <a class="site-list__link site-list__link--current" href="#">
               фото и видео
             </a>
           </li>
           <li class="site-list__item">
-            <a class="site-list__link" href="#">
+            <a class="site-list__link" href="form.html">
               форма отзыва
             </a>
           </li>
@@ -63,93 +63,72 @@
     </section>
 
     <!-- Cards -->
-    <section class="photo-video">
+    <section class="gallery">
       <h2 class="visually-hidden">Фотографии Седоны</h2>
-      <ul class="photo-video__list gallery">
+      <ul class="gallery__list">
 
         <!-- card 1 -->
         <li class="gallery__item">
-          <div class="gallery__wrapper">
-            <div class="gallery__image-wrapper">
-              <img class="gallery__image" src="img/evening-road.jpg" width="280" height="280"
-                alt="Дорога и вечернее солнце.">
-            </div>
-            <div class="gallery__text-wrapper">
-              <h3 class="gallery__title">народные просторы</h3>
-              <p class="gallery__author">Автор фото: Борис</p>
-            </div>
-            <div class="gallery__likes-wrapper">
-              <button class="gallery__button" type="button">Like</button>
-              <span class="gallery__count">1350</span>
-            </div>
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image" src="img/evening-road.jpg" width="280" height="280"
+              alt="Дорога и вечернее солнце.">
           </div>
+          <div class="gallery__text-wrapper">
+            <h3 class="gallery__title">народные просторы</h3>
+            <p class="gallery__author">Автор фото: Борис</p>
+          </div>
+          <span class="gallery__count">1350</span>
         </li>
 
         <!-- card 2 -->
         <li class="gallery__item">
-          <div class="gallery__wrapper">
-            <div class="gallery__image-wrapper">
-              <img class="gallery__image" src="img/brunch-mountains.jpg" width="280" height="280"
-                alt="Ветка растения на фоне горы.">
-            </div>
-            <div class="gallery__text-wrapper">
-              <h3 class="gallery__title">местная растительность</h3>
-              <p class="gallery__author">Автор фото: Сергей</p>
-            </div>
-            <div class="gallery__likes-wrapper">
-              <button class="gallery__button" type="button">Like</button>
-              <span class="gallery__count">143</span>
-            </div>
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image" src="img/brunch-mountains.jpg" width="280" height="280"
+              alt="Ветка растения на фоне горы.">
           </div>
+          <div class="gallery__text-wrapper">
+            <h3 class="gallery__title">местная растительность</h3>
+            <p class="gallery__author">Автор фото: Сергей</p>
+          </div>
+          <span class="gallery__count">143</span>
         </li>
 
         <!-- card 3 -->
         <li class="gallery__item">
-          <div class="gallery__wrapper">
-            <div class="gallery__image-wrapper">
-              <img class="gallery__image" src="img/road-forest.jpg" width="280" height="280"
-                alt="Дорога среди зеленого леса.">
-            </div>
-            <div class="gallery__text-wrapper">
-              <h3 class="gallery__title">дорога на север</h3>
-              <p class="gallery__author">Автор фото: Пётр</p>
-            </div>
-            <div class="gallery__likes-wrapper">
-              <button class="gallery__button" type="button">Like</button>
-              <span class="gallery__count">96</span>
-            </div>
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image" src="img/road-forest.jpg" width="280" height="280"
+              alt="Дорога среди зеленого леса.">
           </div>
+          <div class="gallery__text-wrapper">
+            <h3 class="gallery__title">дорога на север</h3>
+            <p class="gallery__author">Автор фото: Пётр</p>
+          </div>
+          <span class="gallery__count">96</span>
         </li>
 
         <!-- card 4 -->
         <li class="gallery__item">
-          <div class="gallery__wrapper">
-            <div class="gallery__image-wrapper">
-              <img class="gallery__image" src="img/devil-bridge-photo.jpg" width="280" height="280" alt="Мост дьявола.">
-            </div>
-            <div class="gallery__text-wrapper">
-              <h3 class="gallery__title">народные просторы</h3>
-              <p class="gallery__author">Автор фото: Антон</p>
-            </div>
-            <div class="gallery__likes-wrapper">
-              <button class="gallery__button" type="button">Like</button>
-              <span class="gallery__count">254</span>
-            </div>
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image" src="img/devil-bridge-photo.jpg" width="280" height="280" alt="Мост дьявола.">
           </div>
+          <div class="gallery__text-wrapper">
+            <h3 class="gallery__title">мост дьявола</h3>
+            <p class="gallery__author">Автор фото: Антон</p>
+          </div>
+          <span class="gallery__count">254</span>
         </li>
       </ul>
     </section>
 
     <!-- Вы еще сомневаетесь? -->
     <section class="video">
-      <div class="video__text-wrapper">
-        <h2 class="video__title">Все еще сомневаетесь?</h2>
-        <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
-        </p>
-      </div>
-      <div class="video__imagin-wrapper">
-        <img class="video__imagine" src="img/video-mobile.jpg" width="280" height="177"
+      <h2 class="video__title">Все еще сомневаетесь?</h2>
+      <p class="video__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
+      </p>
+      <div class="video__image-wrapper">
+        <img class="video__image" src="img/video-mobile.jpg" width="280" height="177"
           alt="Видео дорога с машинами среди гор.">
+        <button class="video__button"></button>
       </div>
     </section>
   </main>
@@ -157,37 +136,40 @@
   <!-- footer -->
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <h2 class="page-footer__title">#visitsedona</h2>
+      <h2 class="page-footer__hashtag">#visitsedona</h2>
 
       <!-- social -->
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Вконтакте</span>
+              <span class="visually-hidden">Вконтакте.</span>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
+              <span class="visually-hidden">Телеграм.</span>
             </a>
           </li>
           <li class="social__item">
             <a class="social__link" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
+              <span class="visually-hidden">Ютуб.</span>
             </a>
           </li>
         </ul>
       </div>
 
-      <!-- developed -->
-      <div class="page-footer__developed developed">
-        <p class="developed__description">
-          Разработано
-          <a class="developed__link" href="https://htmlacademy.ru/intensive/adaptive">
-            <span class="visually-hidden">Сайт HTMLAcademy</span>
-          </a>
-        </p>
+      <!-- Copyright -->
+      <div class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <span class="page-footer__copyright-text">Разработано</span>
+          <svg class="page-footer__copyright-icon" width="27" height="35" viewBox="0 0 27 35" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z"
+              fill="black" />
+          </svg>
+        </a>
       </div>
     </div>
   </footer>
