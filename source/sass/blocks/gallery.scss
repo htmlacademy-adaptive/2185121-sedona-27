@@ -1,0 +1,32 @@
+.gallery__title,
+.gallery__count {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-black;
+}
+
+.gallery__author {
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-gray;
+}
+
+.video {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.video__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  color: $color-black;
+}
+
+.video__text {
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-gray;
+}

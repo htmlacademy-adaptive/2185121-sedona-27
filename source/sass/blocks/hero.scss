@@ -1,0 +1,25 @@
+.hero {
+  background-color: $color-white;
+}
+
+.hero__image-wrapper {
+  background-image: url("../img/hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.hero__title {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero__text {
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-gray;
+}
