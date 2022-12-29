@@ -7,6 +7,24 @@
   text-align: center;
 }
 
+.form__inputs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__radio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__checkbox-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .form__description {
   font-size: 14px;
   line-height: 21px;
@@ -39,4 +57,5 @@
   line-height: 21px;
   text-transform: uppercase;
   color: $notice-color;
+  margin: 0;
 }

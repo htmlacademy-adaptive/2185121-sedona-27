@@ -3,9 +3,16 @@
 }
 
 .hero__image-wrapper {
+  position: relative;
   background-image: url("../img/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.hero__image-wrapper::before {
+  position: absolute;
+  content: url("../img/svg-images/decorate-mobile.svg");
+  bottom: 1px;
 }
 
 .hero__title {
@@ -14,6 +21,7 @@
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
+  margin: 0;
 }
 
 .hero__text {
@@ -22,4 +30,5 @@
   text-align: center;
   text-transform: uppercase;
   color: $color-gray;
+  margin: 0;
 }
