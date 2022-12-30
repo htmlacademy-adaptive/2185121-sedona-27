@@ -1,0 +1,22 @@
+.gallery__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery__title,
+.gallery__count {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-black;
+  margin: 0;
+}
+
+.gallery__author {
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-gray;
+  margin: 0;
+}

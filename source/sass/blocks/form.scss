@@ -1,0 +1,61 @@
+.form__legend {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form__inputs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__radio-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__checkbox-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.form__description {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: $color-gray;
+}
+
+.form__input {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  background-color: $form-color;
+}
+
+.form__radio-text,
+.form__checkbox-text {
+  color: $color-black;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.form__textarea {
+  background-color: $form-color;
+}
+
+.form__notice {
+  font-size: 12px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: $notice-color;
+  margin: 0;
+}
